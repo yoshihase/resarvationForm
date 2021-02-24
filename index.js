@@ -9,7 +9,7 @@ $(function () {
         //var mes_date = $('textarea[name="end_time"]').val();
         var end_time = $('input[name="end_time"]').val();
 
-        var msg = `${key}\n日付：${date}\n始業時間：${start_time}\n終業時間：${end_time}`;
+        var msg = `${key}\nシフト提出：${date}\n始業時間：${start_time}\n終業時間：${end_time}`;
         sendText(msg);
 
         return false;
